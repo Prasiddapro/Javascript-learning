@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../javascript-learning/si.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>simple intrest Calculator</h1>
+    <p>Please place you principle amount:</p>
+    <input type="number" id="amount" placeholder="principle amount">
+    <p>Please place you time:</p>
+    <input type="number" id="time" placeholder="time">
+    <p>Please place you intrest rate:</p>
+    <input type="number" id="intrestRate" placeholder="intrest">
+   <button onclick="calculate()">Calculate</button>
+        <p id="result"></p>
+       
+       <script>
+         function calculate () {
+            var principle = document.getElementById("amount").value;   
+            var time = document.getElementById("time").value;
+            var intrestRate = document.getElementById("intrestRate").value;
+            var simpleIntrest = (principle*time*intrestRate)/100;
+            document.getElementById("result").innerHTML = " simpleIntrest: " + simpleIntrest;
+            }
+
+        </script>
+</body>
+
+</html>

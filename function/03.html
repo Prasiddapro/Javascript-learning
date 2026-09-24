@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Celsius to Fahrenheit</title>
+</head>
+<body>
+
+    <p id="output"></p>
+
+    <script>
+        function celsiusToFahrenheit(celsius) {
+            return (celsius * 9/5) + 32; 
+        }
+
+        let celsius = 12;
+        let fahrenheit = celsiusToFahrenheit(celsius);
+
+        document.getElementById("output").textContent = fahrenheit + " °F";
+    </script>
+
+</body>
+</html>

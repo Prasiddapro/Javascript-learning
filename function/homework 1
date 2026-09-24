@@ -1,0 +1,11 @@
+// A function is a modular, reusable block of code engineered to execute a specific task by receiving inputs,
+//  executing operations, and returning a predictable output.
+
+//  TYPES
+//  calling function
+//  funtion arguments
+//  function parameters
+//  arrow function
+//  return function
+
+//  A callback function is a function passed as an input into another function, designed to run only after a specific task finishes.Uou

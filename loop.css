@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e2e;
+    color: #ffffff;
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+    color: #00d2d3;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p[id^="demo"] {
+    background-color: #2d2d44;
+    border-left: 4px solid #ff6b6b;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: monospace;
+    font-weight: normal;
+}
+
