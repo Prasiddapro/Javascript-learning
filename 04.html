@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Math Functions</title>
+</head>
+<body>
+    <h1>WELCOME</h1>
+
+    <p id="add-result"></p>
+    <p id="sub-result"></p>
+    <p id="mul-result"></p>
+    <p id="div-result"></p>
+
+    <script>
+        function add(a, b) {
+            return a + b;
+        }
+        let result = add(10, 20);
+        document.getElementById("add-result").innerHTML = "<b>Addition:</b> " + result;
+
+        function subtraction(a, b) {
+            return a - b;
+        }
+        let result2 = subtraction(30, 10);
+        document.getElementById("sub-result").innerHTML = "<b>Subtraction:</b> " + result2;
+
+        function multiplication(a, b) {
+            return a * b;
+        }
+        let result3 = multiplication(30, 10);
+        document.getElementById("mul-result").innerHTML = "<b>Multiplication:</b> " + result3;
+
+        function division(a, b) {
+            return a / b;
+        }
+        let result4 = division(30, 10);
+        document.getElementById("div-result").innerHTML = "<b>Division:</b> " + result4;
+    </script>
+</body>
+</html>
