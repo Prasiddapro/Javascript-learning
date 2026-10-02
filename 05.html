@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p id="total-sum"></p>
+    <p id="last-two-sum"></p>
+
+    <script>
+        let array = [30, 50, 60, 133, 3333, 55555];
+
+        function sum(arr) {
+            let total = 0;
+            for (let i = 0; i < arr.length; i++) {
+                total += arr[i];
+            }
+            return total;
+        }
+
+        let result = sum(array);
+        let lastTwo = array.slice(-2);
+        let result2 = sum(lastTwo);
+
+        document.getElementById("total-sum").innerText = "Total sum: " + result;
+        document.getElementById("last-two-sum").innerText = "Sum of last two: " + result2;
+    </script>
+
+</body>
+</html>
